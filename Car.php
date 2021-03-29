@@ -34,7 +34,6 @@ class Car
     }
 
     public function setCurrentSpeed(int $currentSpeed): void
-    {
         {
 
             if($currentSpeed >= 0) {
@@ -44,8 +43,6 @@ class Car
             }
 
         }
-
-    }
 
     public function getColor(): string
     {
